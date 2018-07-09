@@ -184,7 +184,7 @@ header a {
     }
     ul {
         padding: 40px 0px 40px 0px;
-        margin-right: 0px;
+       
         background-color: #fff;
         float: none;
         text-align: center;
@@ -207,10 +207,18 @@ header a {
         margin: 0px 0px 0px 20px;
     }
     .overlay-image-grid-container {
-        display: grid;
-        grid-template-columns: repeat(1, 265px);
+        display: block;
+        grid-template-columns: : repeat(1, 265px);
         grid-column-gap: 50px;
         grid-row-gap: 50px;
+    }
+    #copyright{
+        display: none;
+        visibility: hidden;
+    }
+    .footer{
+        display: none;
+        visibility: hidden;
     }
     
 }
