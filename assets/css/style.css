@@ -125,6 +125,8 @@ header a {
 
 .overlay-image {
     width: 100%;
+    object-fit: cover;
+    height: 350px;
 }
 
 .overlay-image-caption {
@@ -144,6 +146,7 @@ header a {
     grid-column-gap: 50px;
     grid-row-gap: 50px;
 }
+
 
 @media screen and (max-width: 980px) {
 
